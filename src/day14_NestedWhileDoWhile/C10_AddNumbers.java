@@ -19,5 +19,7 @@ public class C10_AddNumbers {
             sum+=n;
         }
         System.out.println("Toplam = "+sum);
+
+
     }
 }
