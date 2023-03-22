@@ -4,7 +4,7 @@ public class C03_Methods_01 {
 
 
     public static void main(String[] args) {
- message_3();
+ message_2();
     }
 
     public static void message_1(){

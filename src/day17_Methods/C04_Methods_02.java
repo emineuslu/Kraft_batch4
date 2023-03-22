@@ -6,7 +6,9 @@ public class C04_Methods_02 {
 
    //f(x)=2x+3
 
-
+    /**
+     * a method prints the average to the console
+     */
     public static void aritmetikOrtalama(){
 
         double x=3,y=5,z=10;
@@ -16,6 +18,9 @@ public class C04_Methods_02 {
     }
 //Bir method yazın 2 sayıdan büyük olanı versin
 
+    /**
+     * a method that returns the max of the number
+     */
    public static void enBuyuk(){
         int x=10,y=20;
         int max;
@@ -29,7 +34,9 @@ public class C04_Methods_02 {
 //Bir method yazın ve kiloyu okka cinsinden versin. Okka=1.282 kg
 
 
-
+    /**
+     * a method converts kilo to okka
+     */
     public static void kiloOkkaCevir(){
         Scanner scan=new Scanner(System.in);
         System.out.print("Kilogram: ");
@@ -92,8 +99,9 @@ public static void ortalamaHesapla2(double x,int y){
 
     public static void main(String[] args) {
         // isimYaz("Mehmet");
-
-        isimYas("harun",25);
+       // kiloOkkaCevir();
+        ortalamaHesapla3(10.0,5,3);
+      //  isimYas("harun",25);
 
     }
 
