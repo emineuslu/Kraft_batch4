@@ -1,0 +1,11 @@
+Method Overloading
+
+         -Multiple different methods sharing the same method name
+         -Same method name, different parameters (parameter datatype, parameter number)
+         -Return type, access modifiers, specifiers can be same or different
+
+        Advantages
+        1.easy to memorize
+        2.easy to read
+        3.resuable
+        4.flexible
