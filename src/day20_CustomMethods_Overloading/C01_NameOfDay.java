@@ -30,5 +30,5 @@ public class C01_NameOfDay {
         }
         return result;
     }
-    //githup
+    //githup2
 }
