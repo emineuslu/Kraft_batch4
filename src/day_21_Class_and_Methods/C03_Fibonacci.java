@@ -25,9 +25,16 @@ public static void fibonacci(int n){
 
 
     public static void main(String[] args) {
-        fibonacci(9);
-        System.out.println();
+       // fibonacci(9);
+     //   System.out.println();
+      if(fibonacciSonSayi(9)==21){
+          System.out.println(fibonacciSonSayi(9));
+          return;
+      }
         System.out.println(fibonacciSonSayi(9));
+        System.out.println("merhaba");
+        System.out.println("nasılsınız");
+
     }
     public static int fibonacciSonSayi(int n){
 
