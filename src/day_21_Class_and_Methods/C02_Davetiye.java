@@ -29,7 +29,7 @@ public class C02_Davetiye {
 
                   if(kelimeKontrol(kelime1,kelime2)){
                       System.out.println("kelimeler farklı olmalıydı");
-                     continue;
+                    continue; //davetiye();
                   }else {
                       davetiyeYazdir(kelime1,kelime2);
                     return; // flag=false; // break;
