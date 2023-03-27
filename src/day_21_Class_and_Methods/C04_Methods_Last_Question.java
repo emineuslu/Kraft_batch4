@@ -21,8 +21,6 @@ public class C04_Methods_Last_Question {
         System.out.print("2.Sayi: ");
         int sayi2= scan.nextInt();
           return sayilariTopla(sayi1 ,ucunkati(sayi2));
-
-
     }
 
     private static int sayilariTopla(int x, int y) {
