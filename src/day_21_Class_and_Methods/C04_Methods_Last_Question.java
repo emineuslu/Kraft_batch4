@@ -11,16 +11,16 @@ public class C04_Methods_Last_Question {
     //metotla da sayıları toplayın
 
     public static void main(String[] args) {
-        sayiAl();
+        System.out.println(sayiAl());
     }
 
-    public static void sayiAl(){
+    public static int sayiAl(){
         Scanner scan=new Scanner(System.in);
         System.out.print("1.Sayi: ");
         int sayi1= scan.nextInt();
         System.out.print("2.Sayi: ");
         int sayi2= scan.nextInt();
-        System.out.println(sayilariTopla(sayi1 ,ucunkati(sayi2)));
+          return sayilariTopla(sayi1 ,ucunkati(sayi2));
 
 
     }
