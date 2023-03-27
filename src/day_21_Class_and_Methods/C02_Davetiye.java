@@ -18,9 +18,9 @@ public class C02_Davetiye {
     }
 
     public static void davetiye(){
-        boolean flag=true;
+        //boolean flag=true;
 
-        while(flag){
+        while(true){
             Scanner scan=new Scanner(System.in);
             System.out.print("1.kelime:");
             String kelime1= scan.nextLine();
@@ -29,7 +29,7 @@ public class C02_Davetiye {
 
                   if(kelimeKontrol(kelime1,kelime2)){
                       System.out.println("kelimeler farklı olmalıydı");
-                    continue; //davetiye();
+                   // continue; //davetiye();
                   }else {
                       davetiyeYazdir(kelime1,kelime2);
                     return; // flag=false; // break;
