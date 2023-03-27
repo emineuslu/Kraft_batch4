@@ -1,4 +1,4 @@
-package day_21_Class_and_Methods;
+package day21_Class_and_Methods;
 
 public class Daire {
     int r;
