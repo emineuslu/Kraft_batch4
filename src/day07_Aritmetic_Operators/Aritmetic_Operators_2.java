@@ -1,5 +1,7 @@
 package day07_Aritmetic_Operators;
 
+import day22_ClassAndObject_Memory.Daire2;
+
 public class Aritmetic_Operators_2 {
 
     public static void main(String[] args){
