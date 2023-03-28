@@ -22,6 +22,10 @@ public class Daire2 {
         return result;
     }
 
+    public static  double cevreHesapla2(int yariCap){
+        return 2*pi*yariCap;
+    }
+
 
 
 
