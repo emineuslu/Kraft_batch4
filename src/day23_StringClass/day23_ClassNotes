@@ -35,11 +35,10 @@ toUpperCase() and toLowerCase():
         System.out.println(lowerCaseStr); // Output: "hello world"
 
 trim():
-
-            public static void main(String[] args) {
-            String str = "  Hello World   ";
-            String trimmedStr = str.trim();
-            System.out.println(trimmedStr); // Output: "Hello World"
+        public static void main(String[] args) {
+        String str = "  Hello World   ";
+        String trimmedStr = str.trim();
+        System.out.println(trimmedStr); // Output: "Hello World"
 
 replace():
 
@@ -48,7 +47,6 @@ replace():
         System.out.println(replacedStr); // Output: "Hello Java"
 
 charAt():
-
         String str = "Hello";
         char firstChar = str.charAt(0);
         System.out.println(firstChar); // Output: 'H'
