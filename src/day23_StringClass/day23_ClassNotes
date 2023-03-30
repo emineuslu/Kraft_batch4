@@ -52,3 +52,11 @@ charAt():
         char firstChar = str.charAt(0);
         System.out.println(firstChar); // Output: 'H'
 
+indexOf():
+        String str = "Hello";
+         System.out.println(str.indexOf(H)); // 0
+         System.out.println(str.indexOf(Hell)); // 0
+         System.out.println(str.indexOf(l)); // 2
+
+
+

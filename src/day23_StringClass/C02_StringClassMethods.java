@@ -53,7 +53,6 @@ public class C02_StringClassMethods {
         System.out.println("programmingLanguage.contains(\" Dili J\") = " + programmingLanguage.contains(" Dili J"));
         System.out.println("programmingLanguage.contains(\" DiliJ\") = " + programmingLanguage.contains(" DiliJ"));
 
-
         System.out.println("programmingLanguage.contains(\"python\") = " + programmingLanguage.contains("python"));
         System.out.println("programmingLanguage.contains(\"P\") = " + programmingLanguage.contains("P"));
         System.out.println("programmingLanguage.contains(\"W\") = " + programmingLanguage.contains("W"));
