@@ -19,7 +19,7 @@ public class Person {
         System.out.println(isim+ " oyun oynuyor");
     }
 
-    public  void tumBilgileriGetir(){
+    public void tumBilgileriGetir(){
         System.out.println("isim:"+isim);
         System.out.println("yas: "+yas);
         System.out.println("cinsiyet: "+cinsiyet);
