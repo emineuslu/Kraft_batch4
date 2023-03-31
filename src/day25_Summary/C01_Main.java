@@ -12,6 +12,6 @@ public class C01_Main {
            System.out.println("500 den büyük");
        }
 
-//merhaba
+//merhaba 1234
     }
 }
