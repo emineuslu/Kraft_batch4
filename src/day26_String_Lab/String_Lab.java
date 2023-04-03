@@ -138,10 +138,24 @@ public static String subString(String str,int index){
     //  subString(String str,int start, int end)
 
 
-    public static void main(String[] args) {
-        String kelime="Merhaba";
-        //             0123456
-        System.out.println(subString(kelime,3));
+
+
+    public  static String subString(String str,int start,int end){
+        String result="";
+        for (int i = start; i <end ; i++) {
+            result+=str.charAt(i);
+        }
+        return result;
     }
 
+
+    //Kullanıcıdan bir kelime ve bir karakter alın
+    // ve bu kelimenin istenen karakterin kaç adet olduğunu
+    // döndüren metodu yazınız. (büyük küçük harf göz ardı edilecek)
+    //Ankara,a 3 Edirne,e 2
+    public static void main(String[] args) {
+        String kelime="Ankara";
+        //             0123456
+        System.out.println(subString(kelime,1,4));
+    }
 }
