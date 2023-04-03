@@ -21,14 +21,23 @@ public class String_Lab {
 
 
 
-    public static void main(String[] args) {
-String kelime="  merhaba dünya"; // %%merhaba%dünya
 
-    }
      //Kullanıcıdan bir dize sözcük alın ve her
     // boşluğa % ibaresi ekleyin. Merhaba dünya Merhaba%dünya
     // "   merhaba dünya  "   %%%merhaba%dünya%%
 
+   public static String boslukSilYuzdeEkle(String str){
+
+        return str.replace(" ","%");
+   }
+
+    public static void main(String[] args) {
+        String kelime="  merhaba  dünya  "; // %%merhaba%dünya
+        System.out.println(boslukSilYuzdeEkle(kelime));
+    }
 
 
+    //Kullanıcın girdiği eşit uzunlukta bir kelimenin 2. yarısını
+    // döndüren bir program yazdırın.
+    //Sanayagı yagı Mutluluk uluk
 }
