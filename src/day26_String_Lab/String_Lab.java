@@ -60,11 +60,7 @@ public class String_Lab {
 
 
 
-    public static void main(String[] args) {
-        String kelime="Sanatyagı"; // %%merhaba%dünya
-        //             012345678
-        System.out.println(ilkKelimeDegistir("Merhabaer" ,"er", "is"));
-    }
+
     //Kullanıcıdan bir kelime , değiştirmek istediği harfi/harfleri ve
     // yeni harfi/harfleri alan ve buna göre kelimede/dizede sadece
     // ilk bulduğu yeri değiştiren metodu yazınız.
@@ -75,7 +71,43 @@ public class String_Lab {
         return str.replaceFirst(eski,yeni);
     }
 
+
+
+    public static void main(String[] args) {
+        String kelime="   harun merhaba nasılsın   "; // %%merhaba%dünya
+        //             012345678
+        System.out.println(trim(kelime));
+    }
     //trim(String str) şeklinde bir metot yazın trim gibi çalışsın
-    // ve string döndürsün.  İçerisinde string in hazır metodu olan trim metodunu kullanmayın.
+    // ve string döndürsün.  İçerisinde string in hazır metodu
+    // olan trim metodunu kullanmayın.
+    // "   harun merhaba nasılsın   "
+    // str.substring(start,end+1)
+    //
+    //
+    // harun merhaba nasılsın
+
+    public static String trim(String str){
+        int start=0;
+        int end=0;
+        for (int i = 0; i < str.length(); i++) {
+            if(str.charAt(i)!=' '){
+                start=i;
+                break;
+            }
+        }
+
+        for (int i = str.length()-1; i >=0 ; i--) {
+            if(str.charAt(i)!=' '){
+                end=i;
+                break;
+            }
+        }
+
+        return str.substring(start,end+1);
+
+    }
+
+
 
 }
