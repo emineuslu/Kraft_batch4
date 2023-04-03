@@ -153,11 +153,7 @@ public static String subString(String str,int index){
     // ve bu kelimenin istenen karakterin kaç adet olduğunu
     // döndüren metodu yazınız. (büyük küçük harf göz ardı edilecek)
     //Ankara,a 3 Edirne,e 2
-    public static void main(String[] args) {
-        String kelime="Ankara";
-        //             0123456
-        System.out.println(karakterSay(kelime,'a'));
-    }
+
 
     public static int karakterSay(String str, char c){
         String x=c+"";
@@ -196,7 +192,30 @@ public static String subString(String str,int index){
     // kelimenizin içinde bu harfin hepsi kaldırılmış şekilde string döndüren programı yazınız.
     //(Merhaba, a) Merhb
 
+    public static void main(String[] args) {
+        String kelime="Ankara";
+        //             0123456
+        System.out.println(harfSil2(kelime,'a'));
+    }
 
+public  static String harfSil(String str,char target){
+        String target2=target+"";
+        return str.replace(target2,"");
+}
+
+public static String harfSil2(String str,char target){
+        String result="";
+    for (int i = 0; i <str.length() ; i++) {
+        //    a     !=a  false
+        if(str.charAt(i)!=target){
+            result+=str.charAt(i);
+        }
+    }
+    return result;
+
+
+
+}
 
 
 
