@@ -31,11 +31,7 @@ public class String_Lab {
         return str.replace(" ","%");
    }
 
-    public static void main(String[] args) {
-        String kelime="Sanatyagı"; // %%merhaba%dünya
-        //             012345678
-        System.out.println(ikinciYari2(kelime));
-    }
+
 
 
     //Kullanıcın girdiği eşit uzunlukta bir kelimenin 2. yarısını
@@ -60,6 +56,19 @@ public class String_Lab {
 //                                      (int)Math.ceil(4.5 )
        return str.substring( (int) Math.ceil( (double)str.length()/2   )        );
     }
+
+
+
+
+    public static void main(String[] args) {
+        String kelime="Sanatyagı"; // %%merhaba%dünya
+        //             012345678
+        System.out.println(ikinciYari2(kelime));
+    }
+    //Kullanıcıdan bir kelime , değiştirmek istediği harfi/harfleri ve
+    // yeni harfi/harfleri alan ve buna göre kelimede/dizede sadece
+    // ilk bulduğu yeri değiştiren metodu yazınız.
+    //(Merhaba ,a, e) Merheba (Kasaba , a, i) Kisaba
 
 
 
