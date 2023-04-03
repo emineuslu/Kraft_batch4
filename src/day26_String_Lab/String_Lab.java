@@ -32,12 +32,35 @@ public class String_Lab {
    }
 
     public static void main(String[] args) {
-        String kelime="  merhaba  dünya  "; // %%merhaba%dünya
-        System.out.println(boslukSilYuzdeEkle(kelime));
+        String kelime="Sanatyagı"; // %%merhaba%dünya
+        //             012345678
+        System.out.println(ikinciYari2(kelime));
     }
 
 
     //Kullanıcın girdiği eşit uzunlukta bir kelimenin 2. yarısını
     // döndüren bir program yazdırın.
     //Sanayagı yagı Mutluluk uluk
+    public static String ikinciYari(String str){
+        return str.substring(str.length()/2);
+    }
+    public static String ikinciYari2(String str){
+
+        // sanatyağı
+         //012345678
+        if(str.length()%2==0){
+            return str.substring(str.length()/2);
+        }else {
+            return str.substring(str.length()/2+1);
+        }
+    }
+
+    public static String ikinciYari3(String str){
+//                                                (int) 5.0=5
+//                                      (int)Math.ceil(4.5 )
+       return str.substring( (int) Math.ceil( (double)str.length()/2   )        );
+    }
+
+
+
 }
