@@ -9,17 +9,7 @@ public class String_Lab {
     //Merhaba Mer Ali Ali
 
 
-    public static void main(String[] args) {
 
-        String str="a"; // Har
-        // Ali Ali
-        // iş iş
-        // a  a
-        System.out.println(ilkUcHarfGetir2(str));
-
-
-
-    }
     public static String ilkUcHarfGetir(String str){
         if(str.length()<3){
             return str;
@@ -28,6 +18,16 @@ public class String_Lab {
     }
 
 
+
+
+
+    public static void main(String[] args) {
+String kelime="  merhaba dünya"; // %%merhaba%dünya
+
+    }
+     //Kullanıcıdan bir dize sözcük alın ve her
+    // boşluğa % ibaresi ekleyin. Merhaba dünya Merhaba%dünya
+    // "   merhaba dünya  "   %%%merhaba%dünya%%
 
 
 
