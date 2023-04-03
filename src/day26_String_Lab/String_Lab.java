@@ -120,6 +120,10 @@ public static String cokluKelimeYazdir(String str,int adet){
     return result;
 }
 
+//tek index  numarası alan substring metodunu yazınız
+    // "Merhaba"     str.substring(3)=haba
+    //  subString(String str,int index)
+
 
 
 }
