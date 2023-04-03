@@ -63,13 +63,19 @@ public class String_Lab {
     public static void main(String[] args) {
         String kelime="Sanatyagı"; // %%merhaba%dünya
         //             012345678
-        System.out.println(ikinciYari2(kelime));
+        System.out.println(ilkKelimeDegistir("Merhabaer" ,"er", "is"));
     }
     //Kullanıcıdan bir kelime , değiştirmek istediği harfi/harfleri ve
     // yeni harfi/harfleri alan ve buna göre kelimede/dizede sadece
     // ilk bulduğu yeri değiştiren metodu yazınız.
     //(Merhaba ,a, e) Merheba (Kasaba , a, i) Kisaba
 
+    public static String ilkKelimeDegistir(String str,String eski,String yeni){
 
+        return str.replaceFirst(eski,yeni);
+    }
+
+    //trim(String str) şeklinde bir metot yazın trim gibi çalışsın
+    // ve string döndürsün.  İçerisinde string in hazır metodu olan trim metodunu kullanmayın.
 
 }
