@@ -75,7 +75,6 @@ public class String_Lab {
 
     public static void main(String[] args) {
         String kelime="   harun merhaba nasılsın   "; // %%merhaba%dünya
-        //             012345678
         System.out.println(trim(kelime));
     }
     //trim(String str) şeklinde bir metot yazın trim gibi çalışsın
@@ -83,8 +82,6 @@ public class String_Lab {
     // olan trim metodunu kullanmayın.
     // "   harun merhaba nasılsın   "
     // str.substring(start,end+1)
-    //
-    //
     // harun merhaba nasılsın
 
     public static String trim(String str){
@@ -107,6 +104,10 @@ public class String_Lab {
         return str.substring(start,end+1);
 
     }
+
+
+    //Kullanıcıdan bir kelime alın ve her harfini 3 defa yazdırın.
+    //Merhaba MMMeeerrrhhhaaabbbaaa Ali AAAllliii
 
 
 
