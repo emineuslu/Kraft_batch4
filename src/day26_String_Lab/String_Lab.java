@@ -105,10 +105,7 @@ public class String_Lab {
 
     //Kullanıcıdan bir kelime alın ve her harfini 3 defa yazdırın.
     //Merhaba MMMeeerrrhhhaaabbbaaa Ali AAAllliii
-    public static void main(String[] args) {
-        String kelime="Merhaba";
-        System.out.println(cokluKelimeYazdir(kelime,10));
-    }
+
 
 public static String cokluKelimeYazdir(String str,int adet){
       String result="";
@@ -123,7 +120,20 @@ public static String cokluKelimeYazdir(String str,int adet){
 //tek index  numarası alan substring metodunu yazınız
     // "Merhaba"     str.substring(3)=haba
     //  subString(String str,int index)
+public static void main(String[] args) {
+    String kelime="Merhaba";
+    //             0123456
+    System.out.println(subString(kelime,3));
+}
 
+public static String subString(String str,int index){
+      String result="";
+      //          3 4  5 6       7
+    for (int i = index; i < str.length(); i++) {
+        result+=str.charAt(i);
+    }
+    return  result;
 
+}
 
 }
