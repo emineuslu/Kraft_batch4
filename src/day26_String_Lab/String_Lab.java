@@ -73,10 +73,7 @@ public class String_Lab {
 
 
 
-    public static void main(String[] args) {
-        String kelime="   harun merhaba nasılsın   "; // %%merhaba%dünya
-        System.out.println(trim(kelime));
-    }
+
     //trim(String str) şeklinde bir metot yazın trim gibi çalışsın
     // ve string döndürsün.  İçerisinde string in hazır metodu
     // olan trim metodunu kullanmayın.
@@ -108,6 +105,20 @@ public class String_Lab {
 
     //Kullanıcıdan bir kelime alın ve her harfini 3 defa yazdırın.
     //Merhaba MMMeeerrrhhhaaabbbaaa Ali AAAllliii
+    public static void main(String[] args) {
+        String kelime="Merhaba";
+        System.out.println(cokluKelimeYazdir(kelime,10));
+    }
+
+public static String cokluKelimeYazdir(String str,int adet){
+      String result="";
+    for (int i = 0; i <str.length() ; i++) {
+        for (int j = 0; j < adet; j++) {
+            result+=str.charAt(i);
+        }
+    }
+    return result;
+}
 
 
 
