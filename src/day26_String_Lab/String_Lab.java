@@ -156,6 +156,48 @@ public static String subString(String str,int index){
     public static void main(String[] args) {
         String kelime="Ankara";
         //             0123456
-        System.out.println(subString(kelime,1,4));
+        System.out.println(karakterSay(kelime,'a'));
     }
+
+    public static int karakterSay(String str, char c){
+        String x=c+"";
+        int count=0;
+        for (int i = 0; i < str.length() ; i++) {
+            if(str.substring(i,i+1).equalsIgnoreCase(x)){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static int karakterSay2(String str, String c){
+       str=str.toLowerCase();
+       c=c.toLowerCase();
+        int count=0;
+        for (int i = 0; i < str.length() ; i++) {
+            if(str.substring(i,i+1).equals(c)){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static int karakterSay3(String str, String c){
+        str=str.toLowerCase();
+        c=c.toLowerCase();
+        int startLength=str.length();
+        int finalLength=str.replace(c,"").length();
+        return startLength-finalLength;
+    }
+
+
+
+    //Kullanıcıdan bir kelime ve bir harf alın
+    // kelimenizin içinde bu harfin hepsi kaldırılmış şekilde string döndüren programı yazınız.
+    //(Merhaba, a) Merhb
+
+
+
+
+
 }
