@@ -120,11 +120,7 @@ public static String cokluKelimeYazdir(String str,int adet){
 //tek index  numarası alan substring metodunu yazınız
     // "Merhaba"     str.substring(3)=haba
     //  subString(String str,int index)
-public static void main(String[] args) {
-    String kelime="Merhaba";
-    //             0123456
-    System.out.println(subString(kelime,3));
-}
+
 
 public static String subString(String str,int index){
       String result="";
@@ -135,5 +131,17 @@ public static String subString(String str,int index){
     return  result;
 
 }
+
+
+//çift index  numarası alan substring metodunu yazınız
+    // "Merhaba"     str.substring(3,5)=ha
+    //  subString(String str,int start, int end)
+
+
+    public static void main(String[] args) {
+        String kelime="Merhaba";
+        //             0123456
+        System.out.println(subString(kelime,3));
+    }
 
 }
