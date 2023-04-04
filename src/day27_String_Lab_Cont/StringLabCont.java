@@ -132,4 +132,29 @@ public class StringLabCont {
 // döndüren metodu yazınız. (Büyük küçük duyarlı)
 
     //Merhaba Merhab Ananas Anas
+
+
+    public static String yinelenenKelimeCikart(String str){
+        String result="";
+        for (int i = 0; i <str.length() ; i++) {
+            if(!result.contains(str.substring(i,i+1))){
+                result+=str.substring(i,i+1);
+            }
+        }
+        return result;
+    }
+
+
+    public static String yinelenenKelimeCikart1(String str){
+        String result="";
+        for (; str.length()>0 ;) {
+           result+=str.substring(0,1);
+           str=str.replace(str.substring(0,1),"");
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(yinelenenKelimeCikart1("Ananas"));
+    }
 }
