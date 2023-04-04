@@ -120,6 +120,16 @@ public class StringLabCont {
     //Kullanıcı başına ve sonuna dilediği kadar boşluk girebilir lütfen
     // bu durumu dikkate alın. Output’u dikkatli inceleyin.
 
+    public static String sonKelimeBul(String str){
+        if(str==null) return null;
+        str=str.trim();
+        return str.substring(str.lastIndexOf(" ")+1);
 
+    }
 
+//Kullanıcıdan bir dize sözcük alın ve yinelenen
+// her karakteri kelimenizden çıkartarak sonuç
+// döndüren metodu yazınız. (Büyük küçük duyarlı)
+
+    //Merhaba Merhab Ananas Anas
 }
