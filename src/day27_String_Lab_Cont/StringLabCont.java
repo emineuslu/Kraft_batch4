@@ -96,5 +96,23 @@ public class StringLabCont {
 // bu kelimenin ilk 2 harfi sonunda
 // yer alıyorsa true almıyorsa false yazdırın.
 
+    public static boolean ilkSonIkiKelimeKontrol(String str){
+        if(str==null || str.length()<2){return false;}
+
+        return str.substring(0,2).equalsIgnoreCase( str.substring(str.length()-2));
+    }
+
+    public static boolean ilkSonKelimeKontrol(String str,int karakterSayisi){
+        if(str==null || str.length()<karakterSayisi||karakterSayisi<1){
+            return false;
+        }
+        return str.substring(0,karakterSayisi).equalsIgnoreCase( str.substring(str.length()-karakterSayisi));
+    }
+
+    public static void main(String[] args) {
+        System.out.println(ilkSonKelimeKontrol("Ankara",-9));
+    }
+
+
 
 }
