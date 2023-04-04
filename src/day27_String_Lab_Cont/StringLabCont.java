@@ -78,4 +78,23 @@ public class StringLabCont {
     //Hey Hey..
     //Pi Pi...
 
+     public static String karaktereTamamla(String str,int number,char karakter){
+        if(str.length()>=number){
+            return str.substring(0,number);
+        }
+       // int count=number-str.length();
+         for (int i = str.length(); i <number ; i++) {
+             str+=karakter;
+         }
+        return str;
+
+    }
+
+
+
+//Kullanıcıdan bir kelime alın ve
+// bu kelimenin ilk 2 harfi sonunda
+// yer alıyorsa true almıyorsa false yazdırın.
+
+
 }
