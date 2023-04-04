@@ -109,9 +109,16 @@ public class StringLabCont {
         return str.substring(0,karakterSayisi).equalsIgnoreCase( str.substring(str.length()-karakterSayisi));
     }
 
-    public static void main(String[] args) {
-        System.out.println(ilkSonKelimeKontrol("Ankara",-9));
-    }
+    //Kullanıcının  ad ve soyad bilgilerini
+    //  Ekrana "Soy isminiz ..(soyad)" Yazan metodu yazınız.
+
+    //İnput: "Harun Özsoy "
+    //Output: "Soy isminiz Özsoy dır."
+    //İnput:" Harun Kenan Özsoy " Output: "Soy isminiz Özsoy"
+    //İnput: "Harun Kenan Can Özsoy " Output: "Soy isminiz Özsoy"
+    //İnput:" Harun Kenan Can Sami Özsoy" Output: "Soy isminiz Özsoy"
+    //Kullanıcı başına ve sonuna dilediği kadar boşluk girebilir lütfen
+    // bu durumu dikkate alın. Output’u dikkatli inceleyin.
 
 
 
