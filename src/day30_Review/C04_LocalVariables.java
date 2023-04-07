@@ -12,7 +12,7 @@ public class C04_LocalVariables {
     public static void main(String[] args) {
      //   System.out.println(C05_ClassLevelVariables.Turkish_PI);
         String isim;
-//        System.out.println(isim);  // Local degisken initilize edilemeden kullanilamaz
+    //    System.out.println(isim);  // Local degisken initilize edilemeden kullanilamaz
 
         int i;
         //i++;  //initilize edilmeyen degisken kullanilamaz
