@@ -69,6 +69,7 @@ public static int ebob(int x,int y){
     public static void main(String[] args) {
         System.out.println(ebob(8, 12));
         System.out.println(ekok(8,12));
+
     }
 
     // iki adet sayının ebobunu bulan metodunu
