@@ -23,15 +23,20 @@ public class C03_Array_2 {
             // x=array[4] 5. döngü
         }
 
-      int count=0;
+      int ciftSayi=0;
         for (int x:array) {
             if(x%2==0){
-                count++;
+                ciftSayi++;
             }
         }
-        System.out.println(count);
+        System.out.println("ciftSayi = "+ciftSayi);
 // for each döngüsü kullanarak arraydeki tek sayıları bulun
-
-
+     int tekSayi=0;
+     for (int x:array){
+         if(x%2!=0) {
+             tekSayi++;
+         }
+     }
+        System.out.println("tekSayi = " + tekSayi);
     }
 }
