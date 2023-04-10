@@ -47,10 +47,31 @@ public class C01_Question_21 {
         return  kelime1.concat(" ").concat(kelime2);
     }
 
-    public static void main(String[] args) {
-        System.out.println(kelimeKontrol());
-      //  System.out.println(kelimeKontrol().length());
-
+public static int ebob(int x,int y){
+    int result=1;
+    int min=Math.min(x,y);
+    for (int i = 1; i <= min ; i++) {
+        if(x%i==0 && y%i==0){
+            result=i;
+        }
     }
+    return result;
+}
+
+// a.b=ebob(a,b).ekok(a,b)
+
+    public static int ekok(int a,int b){
+
+        return a*b/ebob(a,b);
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println(ebob(8, 12));
+        System.out.println(ekok(8,12));
+    }
+
+    // iki adet sayının ebobunu bulan metodunu
+    // yazınız ebob(iny x,int y){   9-12 }
 
 }
