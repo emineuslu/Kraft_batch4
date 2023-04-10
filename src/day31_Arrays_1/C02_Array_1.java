@@ -4,7 +4,10 @@ public class C02_Array_1 {
 
     public static void main(String[] args) {
         //String x="Harun";
+        int[] x=new int[5];
 
+        int[] y;
+        y=new int[5];
 
         int z[]=new int[5];
         z[0]=105;
