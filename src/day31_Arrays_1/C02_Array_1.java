@@ -29,7 +29,7 @@ public class C02_Array_1 {
 
         String str2[]={"Harun","Serkan","Emine"};
        str2[0]="Hatice";
-        System.out.println(str2[2]);
+       // System.out.println(str2[2]);
         //String[] str2 =new String[3];
        // str2[0]="Harun";
        // str2[1]="Serkan";
@@ -40,6 +40,15 @@ public class C02_Array_1 {
         // değer atayın sonra ve bu iki değeri
         // toplayın ve ekrna yazdırın
 
+        int[] sayilar=new int[2];
+        sayilar[0]=89;
+        sayilar[1]=105;
+        int toplam=sayilar[0]+sayilar[1];
+        System.out.println("toplam = " + toplam);
+
+        int [] sayilar2={89,107};
+        int toplam2=sayilar2[0]+sayilar2[1];
+        System.out.println("toplam2 = " + toplam2);
     }
 
 
