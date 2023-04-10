@@ -1,5 +1,7 @@
 package day31_Arrays_1;
 
+import java.util.Arrays;
+
 public class C03_Array_2 {
 
     public static void main(String[] args) {
@@ -38,5 +40,33 @@ public class C03_Array_2 {
          }
      }
         System.out.println("tekSayi = " + tekSayi);
+
+     // arrayin içerisindeki tüm verileri toplayan ve ekrana yazdırna bir for each loop yapın
+        int sum=0;
+        for (int i = 0; i <array.length ; i++) {
+            sum+=array[i];
+        }
+        System.out.println("sum = " + sum);
+
+
+      int arrayToplam=0;
+      for (int x:array){
+          arrayToplam+=x;
+      }
+        System.out.println("arrayToplam = " + arrayToplam);
+
+
+
     }
+
+public static String[] arrrayMethot(){
+        String [] array={"harun","mehmet"};
+    return array;
+}
+    public static String arrrayMethot2(String[] arr){
+
+     return arr[0];
+    }
+
+
 }
